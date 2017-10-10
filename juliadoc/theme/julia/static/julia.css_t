@@ -55,7 +55,7 @@ code {
 
 code.descname, code.descclassname {
     border: none;
-    color: #000;
+    color: navy;
     font-size: 100%;
     padding: 1px;
 }
@@ -70,4 +70,12 @@ code.descname, code.descclassname {
     color: rgb(64, 64, 64);
     display: block;
     margin: 1px 0;
+}
+
+.rst-content dl:not(.docutils) dl dt {
+    border-left: none;
+    border-right: none;
+    border-top: solid 1px lightgrey;
+    border-bottom: solid 1px lightgrey;
+    color: #333;
 }
